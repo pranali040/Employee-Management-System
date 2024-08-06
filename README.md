@@ -25,7 +25,8 @@ It provides functionality to create, read, update, and delete employee records.
 ## Set up the MySQL database:
 1. Create a new database called employee_management:
 
-   CREATE DATABASE employee_management;
+CREATE DATABASE employee_management;
+
 
 3. Create a table called `employees` :
     ```sql
