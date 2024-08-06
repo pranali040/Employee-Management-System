@@ -19,15 +19,15 @@ It provides functionality to create, read, update, and delete employee records.
 - Tabulate library for Python
 
 ## Install the required Python packages:
-    ```bash
+
     pip install mysql-connector-python tabulate
-    ```
 
 ## Set up the MySQL database:
 1. Create a new database called employee_management:
-    CREATE DATABASE employee_management;
 
-2. Create a table called `employees` :
+   CREATE DATABASE employee_management;
+
+3. Create a table called `employees` :
     ```sql
     USE employee_management;
     CREATE TABLE employees (
@@ -41,7 +41,7 @@ It provides functionality to create, read, update, and delete employee records.
     );
     ```
 
-3. Update the connection settings in the Python script with your MySQL credentials:
+4. Update the connection settings in the Python script with your MySQL credentials:
     ```python
     conn = mysql.connector.connect(
         host="localhost",
