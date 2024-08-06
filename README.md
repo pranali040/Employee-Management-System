@@ -24,11 +24,11 @@ It provides functionality to create, read, update, and delete employee records.
 
 ## Set up the MySQL database:
 1. Create a new database called employee_management:
-
-CREATE DATABASE employee_management;
-
-
-3. Create a table called `employees` :
+    ```sql
+   CREATE DATABASE employee_management;
+     ```
+    
+2. Create a table called `employees` :
     ```sql
     USE employee_management;
     CREATE TABLE employees (
@@ -42,7 +42,7 @@ CREATE DATABASE employee_management;
     );
     ```
 
-4. Update the connection settings in the Python script with your MySQL credentials:
+3. Update the connection settings in the Python script with your MySQL credentials:
     ```python
     conn = mysql.connector.connect(
         host="localhost",
@@ -57,10 +57,10 @@ CREATE DATABASE employee_management;
 1) Details of all employees 
 ![option1](https://github.com/user-attachments/assets/84f2d20c-e9e8-423f-9319-0a55016aaa7d)
 
-2) Added details of new employee 
+2) Adding details of new employee 
 ![option2](https://github.com/user-attachments/assets/21491104-1147-4290-857f-5879bfa7a635)
 
-3) Updated details of an employee 
+3) Updating details of an employee 
 ![option3](https://github.com/user-attachments/assets/38011159-3576-45f7-bba1-5c6070db304b)
 
 4) Store data in Mysql
