@@ -45,10 +45,10 @@ It provides functionality to create, read, update, and delete employee records.
 3. Update the connection settings in the Python script with your MySQL credentials:
     ```python
     conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Mysql",
-        database="employee_management"
+        host="localhost",  # change to your host
+        user="root",       # change to your user
+        password="password",  # change to your password
+        database="employee_management"  # change to your database
     )
     ```
 
