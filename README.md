@@ -55,13 +55,17 @@ It provides functionality to create, read, update, and delete employee records.
 ## Screenshot
 
 1) Details of all employees 
+
 ![option1](https://github.com/user-attachments/assets/84f2d20c-e9e8-423f-9319-0a55016aaa7d)
 
 2) Adding details of new employee 
+
 ![option2](https://github.com/user-attachments/assets/21491104-1147-4290-857f-5879bfa7a635)
 
 3) Updating details of an employee 
+
 ![option3](https://github.com/user-attachments/assets/38011159-3576-45f7-bba1-5c6070db304b)
 
 4) Store data in Mysql
+
 ![option4](https://github.com/user-attachments/assets/8ae0b30a-9002-45f8-89e0-f71e8ee89aa7)
